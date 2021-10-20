@@ -1,0 +1,45 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400');
+
+body {
+  font-family: Roboto;
+  font-weight: 300;
+  padding: 0 24px;
+}
+
+h1 {
+  font-weight: 400;
+  text-align: center;
+}
+
+blockquote {
+  border-left: 6px solid #ddd;
+  margin: 1.5em 0;
+  padding: 0.5em 1em;
+
+  &.coach {
+    background-color: lightyellow;
+    p { font-weight: 400; }
+  }
+}
+
+cite:before {
+  content: "—"
+}
+.btn {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.card-body {
+  background-color: rgb(241, 241, 224);
+}
+#title1 {
+  font-size: 20px;
+  font-weight: bolder;
+}
+p {
+  font-size: 20px;
+  margin-left: 20px;
+}
